@@ -82,7 +82,7 @@ class Graphs extends React.Component {
 
   teams() {
     //also you should always wait for the data to return
-    //do work
+    //to do work
     if (this.graph_one_loaded != 1) {
       this.graph_one = this.fetch_cls.fetch_teams();
       this.graph_one_loaded = 1;
