@@ -4,7 +4,6 @@ import Loading from "../loading";
 export default function Sport_vis(class_Sport) {
   let cl_data = class_Sport.data_href;
   return (
-    //line 12 shows how the data will be loaded
     <>
       <div className="container">
         <div className="row col-12">

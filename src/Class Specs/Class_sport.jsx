@@ -12,10 +12,10 @@ class Sport extends React.Component {
   }
   load_all() {
     this.data_one();
-    //this.data_two(); //so that the data gets running
+    //this.data_two();
     this.loaded = 0;
   }
-  // the sport class is based on the graphs class, while the Soccer class helps graphs with providing data.
+
   async data_one() {
     let hold = await this.Graphs.teams();
     if (hold != null) {
@@ -36,19 +36,17 @@ class fetch_cmd {
     this.loaded = 0;
     this.url = "htp";
   }
-  //to fetch basic data
+
   fetch_data() {
-    //fetch data
     return 0;
   }
-  //fetch teams
+
   fetch_teams() {
     return 1;
   }
 }
 
 class Soccer extends fetch_cmd {
-  //this is Isreal part
   constructor() {
     super();
     this.url = "Soccer fetch url";
@@ -58,9 +56,7 @@ class Soccer extends fetch_cmd {
   }
   fetch_data() {
     if (this.fetch_data_ === null) {
-      //fetch and store it into fetch_data
     }
-    //fetch then make this.loaded into one.
 
     return 5;
   }
@@ -70,7 +66,6 @@ class Soccer extends fetch_cmd {
 }
 
 class Graphs extends React.Component {
-  //this is Majel part
   constructor() {
     super();
     this.fetch_cls = new Soccer();
@@ -81,8 +76,6 @@ class Graphs extends React.Component {
   }
 
   teams() {
-    //also you should always wait for the data to return
-    //to do work
     if (this.graph_one_loaded != 1) {
       this.graph_one = this.fetch_cls.fetch_teams();
       this.graph_one_loaded = 1;
