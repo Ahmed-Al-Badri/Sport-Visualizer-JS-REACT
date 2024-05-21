@@ -1,12 +1,7 @@
 # React + Vite
-Hello Israel and Matej, your part is to work on the two given classes, which are the Graphs class and the fetching class, currently Majel can work on the Graphs class; However, the Graphs class depends on the fetching class, so Israel will be required to provide data to matej that will statify majel graphs requirements.
-
 --set up is, npm install,
              npm run dev.
--- Another thing, you do not to implement the base structures that take care of the grapichs, all you need is to make sure that your code works and it does the fetching or graphing. This way, it easier for you guys to handle your parts.
-
-Moreover, when the graphs that Majel provide are finshed they will then be used by the main class to be display to the client, or React Web. In other words, visualized though the html/app.
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Also since their ill be three sports, mine (Ahmed Al-Badri) would be Soccer, the folder that will be worked on it called.
 
 Currently, two official plugins are available:
 
