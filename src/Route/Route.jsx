@@ -8,24 +8,27 @@ import Sport_vis from "../Class Specs/sport_vis";
 import Home from "../Home";
 import Loading from "../loading";
 
+//keep
 function set_data() {
   let data = new Graphs();
   return new Sport(data);
 }
 export default function Route_() {
-  const [sport_one, sport_one_edit] = useState(set_data());
+  ///////////
+  //keep
+  const [Soccer_, sport_one_edit] = useState(set_data());
   useEffect(() => {
-    sport_one.sort_data();
+    Soccer_.sort_data();
   }, []);
-
+  //////////
   return (
     <>
       <Routes>
         <Route path="/Main" element={<Home />} />
         <Route
-          path="/Sport_one"
+          path="/Soccer"
           element={
-            sport_one.loaded ? <Sport_vis data_href={sport_one} /> : <Loading />
+            Soccer_.loaded ? <Sport_vis data_href={Soccer_} /> : <Loading />
           }
         />
       </Routes>

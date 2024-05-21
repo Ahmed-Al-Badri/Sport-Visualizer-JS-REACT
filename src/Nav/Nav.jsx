@@ -13,7 +13,7 @@ export default function Nav_() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="Sport_One"> Sport_One</Nav.Link>
+              <Nav.Link href="Soccer"> Soccer</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
