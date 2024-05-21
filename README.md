@@ -3,7 +3,7 @@
              npm run dev.
 
 
-Also since their ill be three sports, mine (Ahmed Al-Badri) would be Soccer, the folder that will be worked on it called Class Specs.
+Also since their will be three sports, mine (Ahmed Al-Badri) would be Soccer, the folder that will be worked on it called Class Specs. Create a differnt folder for your sport and a nav route.
 
 Currently, two official plugins are available:
 
